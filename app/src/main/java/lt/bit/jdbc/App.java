@@ -17,7 +17,7 @@ public class App {
     }
 
     public static Connection getConnectionFromDriverManager() throws SQLException {
-        Connection connection = null;
+        Connection connection;
         Properties connectionProps = new Properties();
         connectionProps.put("user", USERNAME);
         connectionProps.put("password", PASSWORD);
